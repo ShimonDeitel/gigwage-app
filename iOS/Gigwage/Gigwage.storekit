@@ -1,0 +1,40 @@
+{
+  "identifier" : "Gigwage",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "gigwage.subgroup",
+      "localizations" : [],
+      "name" : "Gigwage Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "gigwage.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Per-gig totals and quarterly tax-estimate summary",
+              "displayName" : "Gigwage Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "gigwage.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Gigwage Pro Monthly",
+          "subscriptionGroupID" : "gigwage.subgroup",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
